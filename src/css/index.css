@@ -131,10 +131,11 @@ body {
     cursor: pointer;
     font-size: 18px;
     width: max-content;
-    font-weight: 800;
+    font-weight: 600;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 .button-default {
@@ -159,3 +160,106 @@ body {
     background: #fff;
 }
 
+.block-default {
+
+}
+
+.wrapper-feed {
+    padding: 10px;
+}
+
+.item-feed {
+    background: #fff;
+    border-radius: 3px;
+    width: 700px;
+}
+
+.item-image-wrapper-feed {
+    position: relative;
+}
+
+.title-feed {
+    padding: 5px;
+    background: #fff;
+    border-radius: 3px;
+    font-weight: 600;
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.item-preview-img {
+    max-width: 700px;
+    border-radius: 3px 3px 0 0 ;
+}
+
+.item-preview-text {
+    padding: 10px;
+}
+
+.control-place-feed {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-top: 1px solid #fafafa;
+}
+
+.comments-wrapper {
+    border-top: 1px solid #fafafa;
+}
+
+.state-comments {
+    padding: 10px;
+    text-align: center;
+
+    color: #7b7b7b;
+    font-size: 12px;
+}
+
+.like-img {
+    max-width: 20px;
+}
+
+.item-wrapper-feed {
+    margin-bottom: 10px;
+}
+
+.like-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 13px;
+    color: #7b7b7b;
+}
+
+.like-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.like {
+    display: flex;
+}
+
+.like-item {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.comment-feed-wrapper {
+    width: 100%;
+}
+
+.comment-feed-button {
+    background: #fafafa;
+    width: 600px;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 13px;
+    color: #7b7b7b;
+    cursor: pointer;
+}
